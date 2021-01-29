@@ -1,9 +1,10 @@
 import React from 'react';
+import { Label } from './components/atoms/label';
 
 function App() {
   return (
     <div className="App">
-      The Beginning
+      <Label/>
     </div>
   );
 }
