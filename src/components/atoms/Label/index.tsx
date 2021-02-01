@@ -7,9 +7,9 @@ export interface Props{
 
 const Label = (props:Props)=>{
 
-    return <div>
+    return <span>
         <label>{props.label||<Skeleton/>}</label>
-    </div>
+    </span>
 }
 
 export {Label};
